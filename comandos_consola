@@ -1,0 +1,13 @@
+Prolog consola:
+swipl
+1?- consult ('nobredelarchivo.pl').
+nombrefuncion(datos).
+trace, .
+notrace. //para salir
+
+Haskell consola:
+ghci
+:l nombre_archivo.hs
+:r lo vuelve a cargar
+:t te dice la firma de la funcion
+
